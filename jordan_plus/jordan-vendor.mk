@@ -137,6 +137,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan_plus/framework/com.motorola.android.location.jar:system/framework/com.motorola.android.location.jar
 
+#kineto
+PRODUCT_COPY_FILES += \
+	vendor/motorola/jordan/app/MS-MOTOJDN-FROYO-KNT20-02-A0-24.2.apk:system/app/MS-MOTOJDN-FROYO-KNT20-02-A0-24.2.apk \
+	vendor/motorola/jordan/lib/libkineto.so:system/lib/libkineto.so \
+	vendor/motorola/jordan/lib/libcryp98.so:system/lib/libcryp98.so
+
 #app
 PRODUCT_COPY_FILES += \
 	vendor/motorola/jordan_plus/app/FMRadio.apk:system/app/FMRadio.apk \
