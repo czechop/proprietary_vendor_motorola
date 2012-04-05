@@ -138,9 +138,9 @@ PRODUCT_COPY_FILES += \
 
 #kineto
 PRODUCT_COPY_FILES += \
-	vendor/motorola/jordan/app/MS-MOTOJDN-FROYO-KNT20-02-A0-24.2.apk:system/app/MS-MOTOJDN-FROYO-KNT20-02-A0-24.2.apk \
-	vendor/motorola/jordan/lib/libkineto.so:system/lib/libkineto.so \
-	vendor/motorola/jordan/lib/libcryp98.so:system/lib/libcryp98.so
+	vendor/motorola/jordan_plus/app/MS-MOTOJDN-FROYO-KNT20-02-A0-24.2.apk:system/app/MS-MOTOJDN-FROYO-KNT20-02-A0-24.2.apk \
+	vendor/motorola/jordan_plus/lib/libkineto.so:system/lib/libkineto.so \
+	vendor/motorola/jordan_plus/lib/libcryp98.so:system/lib/libcryp98.so
 
 #app
 PRODUCT_COPY_FILES += \
