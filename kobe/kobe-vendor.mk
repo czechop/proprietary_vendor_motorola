@@ -15,10 +15,9 @@
 
 # LIBS
 PRODUCT_COPY_FILES += \
-	vendor/motorola/kobe/lib/libcamera.so:obj/lib/libcamera.so \
 	vendor/motorola/kobe/lib/libaudio.so:obj/lib/libaudio.so \
 	vendor/motorola/kobe/lib/libaudio.so:system/lib/libaudio.so \
-	vendor/motorola/kobe/lib/libcamera.so:system/lib/libcamera.so \
+	vendor/motorola/kobe/lib/libkobecamera.so:system/lib/libkobecamera.so \
 	vendor/motorola/kobe/lib/libIMGegl.so:system/lib/libIMGegl.so \
 	vendor/motorola/kobe/lib/libpvr2d.so:system/lib/libpvr2d.so \
 	vendor/motorola/kobe/lib/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
