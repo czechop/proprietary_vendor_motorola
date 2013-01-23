@@ -16,8 +16,6 @@ vendor_path = vendor/motorola/jordan-common
 
 # LIBS
 PRODUCT_COPY_FILES += \
-	$(vendor_path)/lib/libaudio.so:obj/lib/libaudio.so \
-	$(vendor_path)/lib/libaudio.so:system/lib/libaudio.so \
 	$(vendor_path)/lib/libcaps.so:system/lib/libcaps.so \
 	$(vendor_path)/lib/libgki.so:system/lib/libgki.so \
 	$(vendor_path)/lib/libmotdb.so:system/lib/libmotdb.so \
@@ -43,8 +41,10 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libtpa.so:system/lib/libtpa.so \
 	$(vendor_path)/lib/libtpa_core.so:system/lib/libtpa_core.so \
 	$(vendor_path)/lib/libpanic_daemon.so:system/lib/libpanic_daemon.so \
-	$(vendor_path)/lib/hw/gps.jordan.so:system/lib/hw/gps.jordan.so 
-
+	$(vendor_path)/lib/hw/gps.jordan.so:system/lib/hw/gps.jordan.so \
+	$(vendor_path)/lib/hw/alsa.omap3.so:system/lib/hw/alsa.omap3.so \
+	$(vendor_path)/lib/hw/audio.primary.omap3.so:system/lib/hw/audio.primary.omap3.so \
+	$(vendor_path)/lib/hw/libaudio_ext.so:system/lib/hw/libaudio_ext.so 
 # dsp
 
 # dsp
