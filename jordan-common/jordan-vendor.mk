@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-#      http://www.apache.org/licenses/LICENSE-2.0
+#	  http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -44,43 +44,71 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libtpa_core.so:system/lib/libtpa_core.so \
 	$(vendor_path)/lib/libpanic_daemon.so:system/lib/libpanic_daemon.so \
 	$(vendor_path)/lib/libPERF.so:system/lib/libPERF.so \
-	$(vendor_path)/lib/hw/gps.jordan.so:system/lib/hw/gps.jordan.so \
-	$(vendor_path)/lib/dsp/baseimage.dof:system/lib/dsp/baseimage.dof \
-	$(vendor_path)/lib/dsp/conversions.dll64P:system/lib/dsp/conversions.dll64P \
-	$(vendor_path)/lib/dsp/h264vdec_sn.dll64P:system/lib/dsp/h264vdec_sn.dll64P \
-	$(vendor_path)/lib/dsp/h264venc_sn.dll64P:system/lib/dsp/h264venc_sn.dll64P \
-	$(vendor_path)/lib/dsp/jpegdec_sn.dll64P:system/lib/dsp/jpegdec_sn.dll64P \
-	$(vendor_path)/lib/dsp/jpegenc_sn.dll64P:system/lib/dsp/jpegenc_sn.dll64P \
-	$(vendor_path)/lib/dsp/m4venc_sn.dll64P:system/lib/dsp/m4venc_sn.dll64P \
-	$(vendor_path)/lib/dsp/mp3dec_sn.dll64P:system/lib/dsp/mp3dec_sn.dll64P \
-	$(vendor_path)/lib/dsp/mp4vdec_sn.dll64P:system/lib/dsp/mp4vdec_sn.dll64P \
-	$(vendor_path)/lib/dsp/mpeg4aacdec_sn.dll64P:system/lib/dsp/mpeg4aacdec_sn.dll64P \
-	$(vendor_path)/lib/dsp/mpeg4aacenc_sn.dll64P:system/lib/dsp/mpeg4aacenc_sn.dll64P \
+	$(vendor_path)/lib/hw/gps.jordan.so:system/lib/hw/gps.jordan.so 
+
+# dsp
+
+# dsp
+PRODUCT_COPY_FILES += \
+	$(vendor_path)/lib/dsp/g729enc_sn.dll64P:system/lib/dsp/g729enc_sn.dll64P \
 	$(vendor_path)/lib/dsp/nbamrdec_sn.dll64P:system/lib/dsp/nbamrdec_sn.dll64P \
-	$(vendor_path)/lib/dsp/nbamrenc_sn.dll64P:system/lib/dsp/nbamrenc_sn.dll64P \
-	$(vendor_path)/lib/dsp/postprocessor_dualout.dll64P:system/lib/dsp/postprocessor_dualout.dll64P \
-	$(vendor_path)/lib/dsp/ringio.dll64P:system/lib/dsp/ringio.dll64P \
-	$(vendor_path)/lib/dsp/usn.dll64P:system/lib/dsp/usn.dll64P \
-	$(vendor_path)/lib/dsp/wbamrdec_sn.dll64P:system/lib/dsp/wbamrdec_sn.dll64P \
-	$(vendor_path)/lib/dsp/wbamrenc_sn.dll64P:system/lib/dsp/wbamrenc_sn.dll64P \
-	$(vendor_path)/lib/dsp/wmadec_sn.dll64P:system/lib/dsp/wmadec_sn.dll64P \
-	$(vendor_path)/lib/dsp/720p_h264vdec_sn.dll64P:system/lib/dsp/720p_h264vdec_sn.dll64P \
-	$(vendor_path)/lib/dsp/mpeg4ingenc_sn.dll64P:system/lib/dsp/mpeg4ingenc_sn.dll64P \
-	$(vendor_path)/lib/dsp/h264ingdec_sn.dll64P:system/lib/dsp/h264ingdec_sn.dll64P \
-	$(vendor_path)/lib/dsp/mpeg4ingdec_sn.dll64P:system/lib/dsp/mpeg4ingdec_sn.dll64P \
-	$(vendor_path)/lib/dsp/720p_mp4vdec_sn.dll64P:system/lib/dsp/720p_mp4vdec_sn.dll64P \
+	$(vendor_path)/lib/dsp/monitor_tiomap3430.dof64P:system/lib/dsp/monitor_tiomap3430.dof64P \
+	$(vendor_path)/lib/dsp/star.l64P:system/lib/dsp/star.l64P \
+	$(vendor_path)/lib/dsp/h264vdec_sn.dll64P:system/lib/dsp/h264vdec_sn.dll64P \
+	$(vendor_path)/lib/dsp/conversions.dll64P:system/lib/dsp/conversions.dll64P \
+	$(vendor_path)/lib/dsp/m4venc_sn.dll64P:system/lib/dsp/m4venc_sn.dll64P \
+	$(vendor_path)/lib/dsp/g729dec_sn.dll64P:system/lib/dsp/g729dec_sn.dll64P \
+	$(vendor_path)/lib/dsp/qosdyn_3430.dll64P:system/lib/dsp/qosdyn_3430.dll64P \
+	$(vendor_path)/lib/dsp/720p_divx_mp4vdec_sn.dll64P:system/lib/dsp/720p_divx_mp4vdec_sn.dll64P \
+	$(vendor_path)/lib/dsp/mpeg4aacdec_sn.dll64P:system/lib/dsp/mpeg4aacdec_sn.dll64P \
 	$(vendor_path)/lib/dsp/720p_h264venc_sn.dll64P:system/lib/dsp/720p_h264venc_sn.dll64P \
-	$(vendor_path)/lib/dsp/720p_mp4venc_sn.dll64P:system/lib/dsp/720p_mp4venc_sn.dll64P \
+	$(vendor_path)/lib/dsp/g722enc_sn.dll64P:system/lib/dsp/g722enc_sn.dll64P \
+	$(vendor_path)/lib/dsp/dctn_dyn.dll64P:system/lib/dsp/dctn_dyn.dll64P \
+	$(vendor_path)/lib/dsp/dfgm.dll64P:system/lib/dsp/dfgm.dll64P \
+	$(vendor_path)/lib/dsp/ilbcdec_sn.dll64P:system/lib/dsp/ilbcdec_sn.dll64P \
+	$(vendor_path)/lib/dsp/mp3dec_sn.dll64P:system/lib/dsp/mp3dec_sn.dll64P \
+	$(vendor_path)/lib/dsp/wbamrdec_sn.dll64P:system/lib/dsp/wbamrdec_sn.dll64P \
+	$(vendor_path)/lib/dsp/g722dec_sn.dll64P:system/lib/dsp/g722dec_sn.dll64P \
 	$(vendor_path)/lib/dsp/wmv9dec_sn.dll64P:system/lib/dsp/wmv9dec_sn.dll64P \
+	$(vendor_path)/lib/dsp/g726enc_sn.dll64P:system/lib/dsp/g726enc_sn.dll64P \
+	$(vendor_path)/lib/dsp/jpegenc_sn.dll64P:system/lib/dsp/jpegenc_sn.dll64P \
+	$(vendor_path)/lib/dsp/yuvconvert.l64p:system/lib/dsp/yuvconvert.l64p \
+	$(vendor_path)/lib/dsp/720p_h264vdec_sn.dll64P:system/lib/dsp/720p_h264vdec_sn.dll64P \
+	$(vendor_path)/lib/dsp/chromasuppress.l64p:system/lib/dsp/chromasuppress.l64p \
+	$(vendor_path)/lib/dsp/ddspbase_tiomap3430.dof64P:system/lib/dsp/ddspbase_tiomap3430.dof64P \
+	$(vendor_path)/lib/dsp/wbamrenc_sn.dll64P:system/lib/dsp/wbamrenc_sn.dll64P \
+	$(vendor_path)/lib/dsp/dynbase_tiomap3430.dof64P:system/lib/dsp/dynbase_tiomap3430.dof64P \
+	$(vendor_path)/lib/dsp/ringio.dll64P:system/lib/dsp/ringio.dll64P \
+	$(vendor_path)/lib/dsp/g711enc_sn.dll64P:system/lib/dsp/g711enc_sn.dll64P \
+	$(vendor_path)/lib/dsp/h264venc_sn.dll64P:system/lib/dsp/h264venc_sn.dll64P \
+	$(vendor_path)/lib/dsp/720p_wmv9vdec_sn.dll64P:system/lib/dsp/720p_wmv9vdec_sn.dll64P \
+	$(vendor_path)/lib/dsp/wmadec_sn.dll64P:system/lib/dsp/wmadec_sn.dll64P \
+	$(vendor_path)/lib/dsp/eenf_ti.l64P:system/lib/dsp/eenf_ti.l64P \
+	$(vendor_path)/lib/dsp/ipp_sn.dll64P:system/lib/dsp/ipp_sn.dll64P \
+	$(vendor_path)/lib/dsp/ittiam_divx3vdec_sn.dll64P:system/lib/dsp/ittiam_divx3vdec_sn.dll64P \
+	$(vendor_path)/lib/dsp/g726dec_sn.dll64P:system/lib/dsp/g726dec_sn.dll64P \
+	$(vendor_path)/lib/dsp/sparkdec_sn.dll64P:system/lib/dsp/sparkdec_sn.dll64P \
+	$(vendor_path)/lib/dsp/nbamrenc_sn.dll64P:system/lib/dsp/nbamrenc_sn.dll64P \
+	$(vendor_path)/lib/dsp/usn.dll64P:system/lib/dsp/usn.dll64P \
+	$(vendor_path)/lib/dsp/720p_mp4vdec_sn.dll64P:system/lib/dsp/720p_mp4vdec_sn.dll64P \
+	$(vendor_path)/lib/dsp/baseimage.map:system/lib/dsp/baseimage.map \
 	$(vendor_path)/lib/dsp/vpp_sn.dll64P:system/lib/dsp/vpp_sn.dll64P \
+	$(vendor_path)/lib/dsp/g711dec_sn.dll64P:system/lib/dsp/g711dec_sn.dll64P \
+	$(vendor_path)/lib/dsp/ilbcenc_sn.dll64P:system/lib/dsp/ilbcenc_sn.dll64P \
+	$(vendor_path)/lib/dsp/baseimage.dof:system/lib/dsp/baseimage.dof \
+	$(vendor_path)/lib/dsp/mp4vdec_sn.dll64P:system/lib/dsp/mp4vdec_sn.dll64P \
+	$(vendor_path)/lib/dsp/postprocessor_dualout.dll64P:system/lib/dsp/postprocessor_dualout.dll64P \
+	$(vendor_path)/lib/dsp/720p_mp4venc_sn.dll64P:system/lib/dsp/720p_mp4venc_sn.dll64P \
+	$(vendor_path)/lib/dsp/jpegdec_sn.dll64P:system/lib/dsp/jpegdec_sn.dll64P \
+	$(vendor_path)/lib/dsp/mpeg4aacenc_sn.dll64P:system/lib/dsp/mpeg4aacenc_sn.dll64P
 
 #Moto etc
 PRODUCT_COPY_FILES += \
-        $(vendor_path)/etc/firmware/wl1271.bin:system/etc/firmware/wl1271.bin \
-        $(vendor_path)/etc/wifi/fw_tiwlan_ap.bin:system/etc/wifi/fw_tiwlan_ap.bin \
-        $(vendor_path)/etc/wifi/fw_wlan1271.bin:system/etc/wifi/fw_wlan1271.bin \
-        $(vendor_path)/etc/cameraCalFileDef5M.bin:system/etc/cameraCalFileDef5M.bin \
-        $(vendor_path)/etc/mot_ise_imager_cfg.bin:system/etc/mot_ise_imager_cfg.bin \
+	$(vendor_path)/etc/firmware/wl1271.bin:system/etc/firmware/wl1271.bin \
+	$(vendor_path)/etc/wifi/fw_tiwlan_ap.bin:system/etc/wifi/fw_tiwlan_ap.bin \
+	$(vendor_path)/etc/wifi/fw_wlan1271.bin:system/etc/wifi/fw_wlan1271.bin \
+	$(vendor_path)/etc/cameraCalFileDef5M.bin:system/etc/cameraCalFileDef5M.bin \
+	$(vendor_path)/etc/mot_ise_imager_cfg.bin:system/etc/mot_ise_imager_cfg.bin \
 	$(vendor_path)/etc/motorola/ap_flex_version.txt:system/etc/motorola/ap_flex_version.txt \
 	$(vendor_path)/etc/motorola/comm_drv/commdrv_fs.sh:system/etc/motorola/comm_drv/commdrv_fs.sh \
 	$(vendor_path)/etc/motorola/comm_drv/mmins_cust_emergency_number.cfg:system/etc/motorola/comm_drv/mmins_cust_emergency_number.cfg \
