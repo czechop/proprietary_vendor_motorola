@@ -41,17 +41,11 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libtpa.so:system/lib/libtpa.so \
 	$(vendor_path)/lib/libtpa_core.so:system/lib/libtpa_core.so \
 	$(vendor_path)/lib/libpanic_daemon.so:system/lib/libpanic_daemon.so \
-	$(vendor_path)/lib/hw/gps.jordan.so:system/lib/hw/gps.jordan.so 
-
-# Audio
-PRODUCT_COPY_FILES += \
-	$(vendor_path)/lib/libaudio_ext.so:system/lib/libaudio_ext.so \
-	$(vendor_path)/lib/libhdcp.so:system/lib/libhdcp.so \
-	$(vendor_path)/lib/libhdmi.so:system/lib/libhdmi.so \
-	$(vendor_path)/lib/librds_util.so:system/lib/librds_util.so \
-	$(vendor_path)/lib/libril_rds.so:system/lib/libril_rds.so \
+	$(vendor_path)/lib/hw/gps.jordan.so:system/lib/hw/gps.jordan.so \
 	$(vendor_path)/lib/hw/alsa.omap3.so:system/lib/hw/alsa.omap3.so \
 	$(vendor_path)/lib/hw/audio.primary.omap3.so:system/lib/hw/audio.primary.omap3.so \
+	$(vendor_path)/lib/hw/libaudio_ext.so:system/lib/hw/libaudio_ext.so 
+# dsp
 
 # dsp
 PRODUCT_COPY_FILES += \
