@@ -16,8 +16,6 @@ vendor_path = vendor/motorola/jordan-common
 
 # LIBS
 PRODUCT_COPY_FILES += \
-	$(vendor_path)/lib/libaudio.so:obj/lib/libaudio.so \
-	$(vendor_path)/lib/libaudio.so:system/lib/libaudio.so \
 	$(vendor_path)/lib/libcaps.so:system/lib/libcaps.so \
 	$(vendor_path)/lib/libgki.so:system/lib/libgki.so \
 	$(vendor_path)/lib/libmotdb.so:system/lib/libmotdb.so \
@@ -226,7 +224,6 @@ PRODUCT_COPY_FILES += \
 #app
 PRODUCT_COPY_FILES += \
 	$(vendor_path)/app/MotoPhonePortal.apk:system/app/MotoPhonePortal.apk \
-	$(vendor_path)/app/AudioEffectSettings.apk:system/app/AudioEffectSettings.apk \
 	$(vendor_path)/app/CompassCalibrate.apk:system/app/CompassCalibrate.apk 
 
 #extra
