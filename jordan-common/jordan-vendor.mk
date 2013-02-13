@@ -27,9 +27,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libOMX.TI.720P.Encoder.so:system/lib/libOMX.TI.720P.Encoder.so \
 	$(vendor_path)/lib/libOMX.TI.mp4.splt.Encoder.so:system/lib/libOMX.TI.mp4.splt.Encoder.so \
 	$(vendor_path)/lib/libOMX.TI.h264.splt.Encoder.so:system/lib/libOMX.TI.h264.splt.Encoder.so \
-	$(vendor_path)/lib/libFMRadio.so:system/lib/libFMRadio.so \
-	$(vendor_path)/lib/libfmradio_jni.so:system/lib/libfmradio_jni.so \
-	$(vendor_path)/lib/libfmradioplayer.so:system/lib/libfmradioplayer.so \
 	$(vendor_path)/lib/liboemcamera.so:system/lib/liboemcamera.so \
 	$(vendor_path)/lib/libsoccamera.so:system/lib/libsoccamera.so \
 	$(vendor_path)/lib/libbayercamera.so:system/lib/libbayercamera.so \
@@ -43,8 +40,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libpanic_daemon.so:system/lib/libpanic_daemon.so \
 	$(vendor_path)/lib/libwvm.so:system/lib/libwvm.so \
 	$(vendor_path)/lib/hw/gps.jordan.so:system/lib/hw/gps.jordan.so 
-
-# dsp
 
 # dsp
 PRODUCT_COPY_FILES += \
@@ -102,9 +97,6 @@ PRODUCT_COPY_FILES += \
 
 #Moto etc
 PRODUCT_COPY_FILES += \
-	$(vendor_path)/etc/firmware/wl1271.bin:system/etc/firmware/wl1271.bin \
-	$(vendor_path)/etc/wifi/fw_tiwlan_ap.bin:system/etc/wifi/fw_tiwlan_ap.bin \
-	$(vendor_path)/etc/wifi/fw_wlan1271.bin:system/etc/wifi/fw_wlan1271.bin \
 	$(vendor_path)/etc/cameraCalFileDef5M.bin:system/etc/cameraCalFileDef5M.bin \
 	$(vendor_path)/etc/mot_ise_imager_cfg.bin:system/etc/mot_ise_imager_cfg.bin \
 	$(vendor_path)/etc/motorola/ap_flex_version.txt:system/etc/motorola/ap_flex_version.txt \
@@ -201,11 +193,9 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/protocol_driver:system/bin/protocol_driver \
 	$(vendor_path)/bin/nvm_daemon:system/bin/nvm_daemon \
 	$(vendor_path)/bin/gkisystem:system/bin/gkisystem \
-	$(vendor_path)/bin/ap_gain.bin:system/bin/ap_gain.bin \
 	$(vendor_path)/bin/fmradioserver:system/bin/fmradioserver \
 	$(vendor_path)/bin/brcm_guci_drv:system/bin/brcm_guci_drv \
 	$(vendor_path)/bin/akmd2:system/bin/akmd2 \
-	$(vendor_path)/bin/usbd:system/bin/usbd \
 	$(vendor_path)/bin/location:system/bin/location \
 	$(vendor_path)/bin/ssmgrd:system/bin/ssmgrd \
 	$(vendor_path)/bin/mkfs.exfat:system/bin/mkfs.exfat \
@@ -215,8 +205,8 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/fsck.exfat:system/bin/fsck.exfat \
 	$(vendor_path)/bin/secclkd:system/bin/secclkd \
 	$(vendor_path)/bin/panic_daemon:system/bin/panic_daemon \
-	$(vendor_path)/bin/opprofdaemon_mb526:system/bin/opprofdaemon \
-	$(vendor_path)/bin/battd_new:system/bin/battd
+	$(vendor_path)/bin/opprofdaemon:system/bin/opprofdaemon \
+	$(vendor_path)/bin/battd:system/bin/battd
 
 #location proxy
 PRODUCT_COPY_FILES += \
@@ -224,7 +214,6 @@ PRODUCT_COPY_FILES += \
 
 #app
 PRODUCT_COPY_FILES += \
-	$(vendor_path)/app/MotoPhonePortal.apk:system/app/MotoPhonePortal.apk \
 	$(vendor_path)/app/CompassCalibrate.apk:system/app/CompassCalibrate.apk 
 
 #extra
