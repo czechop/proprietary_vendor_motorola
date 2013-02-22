@@ -172,21 +172,21 @@ PRODUCT_COPY_FILES += \
 
 # TI SGX DDK 1.8 ES 5.x
 PRODUCT_COPY_FILES += \
-	$(vendor_path)/ti_sgx_es5.x/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so \
-	$(vendor_path)/ti_sgx_es5.x/libEGL_POWERVR_SGX530_125.so:system/lib/egl/libEGL_POWERVR_SGX530_125.so \
-	$(vendor_path)/ti_sgx_es5.x/libGLESv1_CM_POWERVR_SGX530_125.so:system/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
-	$(vendor_path)/ti_sgx_es5.x/libGLESv2_POWERVR_SGX530_125.so:system/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
-	$(vendor_path)/ti_sgx_es5.x/libpvr2d.so:system/lib/libpvr2d.so \
-	$(vendor_path)/ti_sgx_es5.x/libeglinfo.so:system/lib/libeglinfo.so \
-	$(vendor_path)/ti_sgx_es5.x/libusc.so:system/lib/libusc.so \
-	$(vendor_path)/ti_sgx_es5.x/libglslcompiler.so:system/lib/libglslcompiler.so \
-	$(vendor_path)/ti_sgx_es5.x/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
-	$(vendor_path)/ti_sgx_es5.x/libsrv_um.so:system/lib/libsrv_um.so \
-	$(vendor_path)/ti_sgx_es5.x/libIMGegl.so:system/lib/libIMGegl.so \
-	$(vendor_path)/ti_sgx_es5.x/libsrv_init.so:system/lib/libsrv_init.so \
-	$(vendor_path)/ti_sgx_es5.x/libPVRScopeServices.so:system/lib/libPVRScopeServices.so \
-	$(vendor_path)/ti_sgx_es5.x/pvrsrvctl:system/bin/pvrsrvctl \
-	$(vendor_path)/ti_sgx_es5.x/pvrsrvinit:system/bin/pvrsrvinit \
+	$(vendor_path)/ti_sgx_1.8/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so \
+	$(vendor_path)/ti_sgx_1.8/libEGL_POWERVR_SGX530_125.so:system/lib/egl/libEGL_POWERVR_SGX530_125.so \
+	$(vendor_path)/ti_sgx_1.8/libGLESv1_CM_POWERVR_SGX530_125.so:system/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
+	$(vendor_path)/ti_sgx_1.8/libGLESv2_POWERVR_SGX530_125.so:system/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
+	$(vendor_path)/ti_sgx_1.8/libpvr2d.so:system/lib/libpvr2d.so \
+	$(vendor_path)/ti_sgx_1.8/libeglinfo.so:system/lib/libeglinfo.so \
+	$(vendor_path)/ti_sgx_1.8/libusc.so:system/lib/libusc.so \
+	$(vendor_path)/ti_sgx_1.8/libglslcompiler.so:system/lib/libglslcompiler.so \
+	$(vendor_path)/ti_sgx_1.8/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
+	$(vendor_path)/ti_sgx_1.8/libsrv_um.so:system/lib/libsrv_um.so \
+	$(vendor_path)/ti_sgx_1.8/libIMGegl.so:system/lib/libIMGegl.so \
+	$(vendor_path)/ti_sgx_1.8/libsrv_init.so:system/lib/libsrv_init.so \
+	$(vendor_path)/ti_sgx_1.8/libPVRScopeServices.so:system/lib/libPVRScopeServices.so \
+	$(vendor_path)/ti_sgx_1.8/pvrsrvctl:system/bin/pvrsrvctl \
+	$(vendor_path)/ti_sgx_1.8/pvrsrvinit:system/bin/pvrsrvinit \
 
 # bin
 PRODUCT_COPY_FILES += \
