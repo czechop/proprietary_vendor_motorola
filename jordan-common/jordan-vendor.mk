@@ -38,7 +38,7 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libtpa.so:system/lib/libtpa.so \
 	$(vendor_path)/lib/libtpa_core.so:system/lib/libtpa_core.so \
 	$(vendor_path)/lib/libpanic_daemon.so:system/lib/libpanic_daemon.so \
-	$(vendor_path)/lib/libwvm.so:system/lib/libwvm.so \
+	$(vendor_path)/lib/libwvm.so:system/vendor/lib/libwvm.so \
 	$(vendor_path)/lib/hw/gps.jordan.so:system/lib/hw/gps.jordan.so 
 
 # dsp
@@ -172,19 +172,19 @@ PRODUCT_COPY_FILES += \
 
 # TI SGX DDK 1.8 ES 5.x
 PRODUCT_COPY_FILES += \
-	$(vendor_path)/ti_sgx_1.8/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so \
-	$(vendor_path)/ti_sgx_1.8/libEGL_POWERVR_SGX530_125.so:system/lib/egl/libEGL_POWERVR_SGX530_125.so \
-	$(vendor_path)/ti_sgx_1.8/libGLESv1_CM_POWERVR_SGX530_125.so:system/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
-	$(vendor_path)/ti_sgx_1.8/libGLESv2_POWERVR_SGX530_125.so:system/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
-	$(vendor_path)/ti_sgx_1.8/libpvr2d.so:system/lib/libpvr2d.so \
-	$(vendor_path)/ti_sgx_1.8/libeglinfo.so:system/lib/libeglinfo.so \
-	$(vendor_path)/ti_sgx_1.8/libusc.so:system/lib/libusc.so \
-	$(vendor_path)/ti_sgx_1.8/libglslcompiler.so:system/lib/libglslcompiler.so \
-	$(vendor_path)/ti_sgx_1.8/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
-	$(vendor_path)/ti_sgx_1.8/libsrv_um.so:system/lib/libsrv_um.so \
-	$(vendor_path)/ti_sgx_1.8/libIMGegl.so:system/lib/libIMGegl.so \
-	$(vendor_path)/ti_sgx_1.8/libsrv_init.so:system/lib/libsrv_init.so \
-	$(vendor_path)/ti_sgx_1.8/libPVRScopeServices.so:system/lib/libPVRScopeServices.so \
+	$(vendor_path)/ti_sgx_1.8/gralloc.omap3.so:system/vendor/lib/hw/gralloc.omap3.so \
+	$(vendor_path)/ti_sgx_1.8/libEGL_POWERVR_SGX530_125.so:system/vendor/lib/egl/libEGL_POWERVR_SGX530_125.so \
+	$(vendor_path)/ti_sgx_1.8/libGLESv1_CM_POWERVR_SGX530_125.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
+	$(vendor_path)/ti_sgx_1.8/libGLESv2_POWERVR_SGX530_125.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
+	$(vendor_path)/ti_sgx_1.8/libpvr2d.so:system/vendor/lib/libpvr2d.so \
+	$(vendor_path)/ti_sgx_1.8/libeglinfo.so:system/vendor/lib/libeglinfo.so \
+	$(vendor_path)/ti_sgx_1.8/libusc.so:system/vendor/lib/libusc.so \
+	$(vendor_path)/ti_sgx_1.8/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
+	$(vendor_path)/ti_sgx_1.8/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
+	$(vendor_path)/ti_sgx_1.8/libsrv_um.so:system/vendor/lib/libsrv_um.so \
+	$(vendor_path)/ti_sgx_1.8/libIMGegl.so:system/vendor/lib/libIMGegl.so \
+	$(vendor_path)/ti_sgx_1.8/libsrv_init.so:system/vendor/lib/libsrv_init.so \
+	$(vendor_path)/ti_sgx_1.8/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
 	$(vendor_path)/ti_sgx_1.8/pvrsrvctl:system/bin/pvrsrvctl \
 	$(vendor_path)/ti_sgx_1.8/pvrsrvinit:system/bin/pvrsrvinit \
 
