@@ -73,6 +73,8 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/dsp/720p_mp4venc_sn.dll64P:system/lib/dsp/720p_mp4venc_sn.dll64P \
 	$(vendor_path)/lib/dsp/wmv9dec_sn.dll64P:system/lib/dsp/wmv9dec_sn.dll64P \
 	$(vendor_path)/lib/dsp/vpp_sn.dll64P:system/lib/dsp/vpp_sn.dll64P \
+	$(vendor_path)/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
+	$(vendor_path)/lib/libwvm.so:system/lib/libwvm.so \
 
 #Moto etc
 PRODUCT_COPY_FILES += \
