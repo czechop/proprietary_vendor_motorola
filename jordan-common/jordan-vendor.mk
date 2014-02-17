@@ -78,9 +78,6 @@ PRODUCT_COPY_FILES += \
 
 #Moto etc
 PRODUCT_COPY_FILES += \
-        $(vendor_path)/etc/firmware/wl1271.bin:system/etc/firmware/wl1271.bin \
-        $(vendor_path)/etc/wifi/fw_tiwlan_ap.bin:system/etc/wifi/fw_tiwlan_ap.bin \
-        $(vendor_path)/etc/wifi/fw_wlan1271.bin:system/etc/wifi/fw_wlan1271.bin \
         $(vendor_path)/etc/cameraCalFileDef5M.bin:system/etc/cameraCalFileDef5M.bin \
         $(vendor_path)/etc/mot_ise_imager_cfg.bin:system/etc/mot_ise_imager_cfg.bin \
 	$(vendor_path)/etc/motorola/ap_flex_version.txt:system/etc/motorola/ap_flex_version.txt \
@@ -183,12 +180,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/akmd2:system/bin/akmd2 \
 	$(vendor_path)/bin/location:system/bin/location \
 	$(vendor_path)/bin/ssmgrd:system/bin/ssmgrd \
-	$(vendor_path)/bin/mkfs.exfat:system/bin/mkfs.exfat \
-	$(vendor_path)/bin/mount.exfat:system/bin/mount.exfat \
-	$(vendor_path)/bin/ntfs-3g:system/bin/ntfs-3g \
-	$(vendor_path)/bin/ntfs-3g.probe:system/bin/ntfs-3g.probe \
-	$(vendor_path)/bin/fsck.exfat:system/bin/fsck.exfat \
-	$(vendor_path)/bin/secclkd:system/bin/secclkd \
 	$(vendor_path)/bin/panic_daemon:system/bin/panic_daemon \
 	$(vendor_path)/bin/opprofdaemon_mb526:system/bin/opprofdaemon \
 	$(vendor_path)/bin/battd_new:system/bin/battd \
