@@ -108,12 +108,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
 	$(vendor_path)/lib/libwvm.so:system/lib/libwvm.so \
 
-#Moto etc
-PRODUCT_COPY_FILES += \
-	$(vendor_path)/etc/firmware/wl1271.bin:system/etc/firmware/wl1271.bin \
-	$(vendor_path)/etc/wifi/fw_tiwlan_ap.bin:system/etc/wifi/fw_tiwlan_ap.bin \
-	$(vendor_path)/etc/wifi/fw_wlan1271.bin:system/etc/wifi/fw_wlan1271.bin \
-
 # basebands
 PRODUCT_COPY_FILES += \
 	$(vendor_path)/etc/motorola/basebands/america/argentina_claro_342.zip:system/etc/motorola/basebands/america/argentina_claro_342.zip \
@@ -185,13 +179,7 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/bin/ssmgrd:system/bin/ssmgrd \
 	$(vendor_path)/bin/opprofdaemon_mb525:system/bin/opprofdaemon \
 	$(vendor_path)/bin/battd_new:system/bin/battd \
-	$(vendor_path)/bin/secclkd:system/bin/secclkd \
 	$(vendor_path)/bin/panic_daemon:system/bin/panic_daemon \
-	$(vendor_path)/bin/mkfs.exfat:system/bin/mkfs.exfat \
-	$(vendor_path)/bin/mount.exfat:system/bin/mount.exfat \
-	$(vendor_path)/bin/ntfs-3g:system/bin/ntfs-3g \
-	$(vendor_path)/bin/ntfs-3g.probe:system/bin/ntfs-3g.probe \
-	$(vendor_path)/bin/fsck.exfat:system/bin/fsck.exfat \
 
 #location proxy
 PRODUCT_COPY_FILES += \
