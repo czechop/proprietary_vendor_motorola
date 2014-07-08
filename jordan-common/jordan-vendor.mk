@@ -26,8 +26,6 @@ PRODUCT_COPY_FILES += \
 	$(vendor_path)/lib/libril-moto-umts-1.so:system/lib/libril-moto-umts-1.so \
 	$(vendor_path)/lib/librilswitch.so:system/lib/librilswitch.so \
 	$(vendor_path)/lib/libOMX.TI.720P.Decoder.so:system/lib/libOMX.TI.720P.Decoder.so \
-	$(vendor_path)/lib/libOMX.TI.mp4.splt.Encoder.so:system/lib/libOMX.TI.mp4.splt.Encoder.so \
-	$(vendor_path)/lib/libOMX.TI.h264.splt.Encoder.so:system/lib/libOMX.TI.h264.splt.Encoder.so \
 	$(vendor_path)/lib/libFMRadio.so:system/lib/libFMRadio.so \
 	$(vendor_path)/lib/libfmradio_jni.so:system/lib/libfmradio_jni.so \
 	$(vendor_path)/lib/libfmradioplayer.so:system/lib/libfmradioplayer.so \
